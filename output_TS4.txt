@@ -1,0 +1,496 @@
+
+> react-email-monorepo@0.0.0 dev /Users/csabaszabo/DEV/react-email
+> turbo run dev --parallel --concurrency 25
+
+• Packages in scope: @benchmarks/tailwind-component, @react-email/body, @react-email/button, @react-email/code-block, @react-email/code-inline, @react-email/column, @react-email/components, @react-email/container, @react-email/font, @react-email/head, @react-email/heading, @react-email/hr, @react-email/html, @react-email/img, @react-email/link, @react-email/markdown, @react-email/preview, @react-email/render, @react-email/row, @react-email/section, @react-email/tailwind, @react-email/text, create-email, eslint-config-custom, react-email, tsconfig, web
+• Running dev in 27 packages
+• Remote caching disabled
+@react-email/code-block:dev: cache bypass, force executing 054dc64996e73ccf
+@react-email/column:dev: cache bypass, force executing 9ff67db65553302f
+@react-email/components:dev: cache bypass, force executing 11948289da246bc1
+@react-email/button:dev: cache bypass, force executing 4da07a5070a2fb2b
+@react-email/img:dev: cache bypass, force executing 5142343a24d4af03
+react-email:dev: cache bypass, force executing 2f5f34e076c330b9
+@react-email/html:dev: cache bypass, force executing 311d2db370788d4b
+@react-email/text:dev: cache bypass, force executing 7f42a3a8a9084549
+@react-email/heading:dev: cache bypass, force executing 87ddc2b17522141b
+web:dev: cache bypass, force executing cdde580c55a49357
+@react-email/code-inline:dev: cache bypass, force executing b8abb71636390493
+@react-email/hr:dev: cache bypass, force executing 30418a96e4fabec7
+@react-email/preview:dev: cache bypass, force executing a9fa1b1aebc36a0d
+@react-email/body:dev: cache bypass, force executing 060a646906e19f00
+@react-email/row:dev: cache bypass, force executing b8182aa077b1c3c9
+@react-email/render:dev: cache bypass, force executing f01038100c273221
+@react-email/section:dev: cache bypass, force executing dc32c7cb5b2bfa80
+@react-email/font:dev: cache bypass, force executing 36b095c428a40f15
+@react-email/tailwind:dev: cache bypass, force executing 784c14e9118da5c9
+@react-email/head:dev: cache bypass, force executing 2c4b931d83ea079e
+@react-email/container:dev: cache bypass, force executing 35d78ed153d1f134
+@react-email/markdown:dev: cache bypass, force executing 95fde54583631b39
+@react-email/link:dev: cache bypass, force executing 8d823c03c9a03f2e
+@react-email/head:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/head:dev: 
+@react-email/head:dev: > @react-email/head@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/head
+@react-email/head:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/head:dev: 
+@react-email/head:dev: CLI Building entry: src/index.ts
+@react-email/head:dev: CLI Using tsconfig: tsconfig.json
+@react-email/head:dev: CLI tsup v7.2.0
+@react-email/head:dev: CLI Running in watch mode
+@react-email/head:dev: CLI Target: es6
+@react-email/head:dev: ESM Build start
+@react-email/head:dev: CJS Build start
+@react-email/head:dev: CJS dist/index.js 2.58 KB
+@react-email/head:dev: CJS ⚡️ Build success in 49ms
+@react-email/head:dev: ESM dist/index.mjs 1.63 KB
+@react-email/head:dev: ESM ⚡️ Build success in 49ms
+@react-email/head:dev: CLI Watching for changes in "."
+@react-email/head:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/components:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/components:dev: 
+@react-email/components:dev: > @react-email/components@0.0.16-canary.0 dev /Users/csabaszabo/DEV/react-email/packages/components
+@react-email/components:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/components:dev: 
+@react-email/column:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/button:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/button:dev: 
+@react-email/button:dev: > @react-email/button@0.0.14 dev /Users/csabaszabo/DEV/react-email/packages/button
+@react-email/button:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/button:dev: 
+@react-email/img:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/column:dev: 
+@react-email/column:dev: > @react-email/column@0.0.9 dev /Users/csabaszabo/DEV/react-email/packages/column
+@react-email/column:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/column:dev: 
+@react-email/code-block:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/code-block:dev: 
+@react-email/code-block:dev: > @react-email/code-block@0.0.3 dev /Users/csabaszabo/DEV/react-email/packages/code-block
+@react-email/code-block:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/code-block:dev: 
+@react-email/img:dev: 
+@react-email/img:dev: > @react-email/img@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/img
+@react-email/img:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/img:dev: 
+@react-email/preview:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/preview:dev: 
+@react-email/preview:dev: > @react-email/preview@0.0.8 dev /Users/csabaszabo/DEV/react-email/packages/preview
+@react-email/preview:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/preview:dev: 
+@react-email/code-inline:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/code-inline:dev: 
+@react-email/code-inline:dev: > @react-email/code-inline@0.0.1 dev /Users/csabaszabo/DEV/react-email/packages/code-inline
+@react-email/code-inline:dev: > pnpm build --watch
+@react-email/code-inline:dev: 
+@react-email/tailwind:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/font:dev: 
+@react-email/font:dev: > @react-email/font@0.0.5 dev /Users/csabaszabo/DEV/react-email/packages/font
+@react-email/font:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/font:dev: 
+@react-email/text:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/tailwind:dev: 
+@react-email/tailwind:dev: > @react-email/tailwind@0.0.14 dev /Users/csabaszabo/DEV/react-email/packages/tailwind
+@react-email/tailwind:dev: > vite build --watch
+@react-email/tailwind:dev: 
+@react-email/text:dev: 
+@react-email/text:dev: > @react-email/text@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/text
+@react-email/text:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/text:dev: 
+@react-email/body:dev: 
+@react-email/body:dev: > @react-email/body@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/body
+@react-email/body:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/body:dev: 
+@react-email/link:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/link:dev: 
+@react-email/link:dev: > @react-email/link@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/link
+@react-email/link:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/link:dev: 
+@react-email/button:dev: CLI Building entry: src/index.ts
+@react-email/container:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/button:dev: CLI Using tsconfig: tsconfig.json
+@react-email/button:dev: CLI tsup v7.2.0
+@react-email/button:dev: CLI Running in watch mode
+@react-email/container:dev: 
+@react-email/container:dev: > @react-email/container@0.0.11 dev /Users/csabaszabo/DEV/react-email/packages/container
+@react-email/container:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/container:dev: 
+@react-email/heading:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/heading:dev: 
+@react-email/heading:dev: > @react-email/heading@0.0.11 dev /Users/csabaszabo/DEV/react-email/packages/heading
+@react-email/heading:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/heading:dev: 
+@react-email/section:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/markdown:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/markdown:dev: 
+@react-email/markdown:dev: > @react-email/markdown@0.0.9-canary.0 dev /Users/csabaszabo/DEV/react-email/packages/markdown
+@react-email/markdown:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/markdown:dev: 
+react-email:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+react-email:dev: 
+react-email:dev: > react-email@2.1.1-canary.0 dev /Users/csabaszabo/DEV/react-email/packages/react-email
+react-email:dev: > tsup --watch
+react-email:dev: 
+@react-email/components:dev: CLI Building entry: src/index.ts
+@react-email/components:dev: CLI Using tsconfig: tsconfig.json
+@react-email/components:dev: CLI tsup v7.2.0
+@react-email/components:dev: CLI Running in watch mode
+@react-email/img:dev: CLI Building entry: src/index.ts
+@react-email/img:dev: CLI Using tsconfig: tsconfig.json
+@react-email/img:dev: CLI tsup v7.2.0
+@react-email/img:dev: CLI Running in watch mode
+@react-email/components:dev: CLI Target: es6
+@react-email/components:dev: ESM Build start
+@react-email/components:dev: CJS Build start
+@react-email/img:dev: CLI Target: es6
+@react-email/img:dev: ESM Build start
+@react-email/img:dev: CJS Build start
+@react-email/button:dev: CLI Target: es6
+@react-email/section:dev: 
+@react-email/section:dev: > @react-email/section@0.0.11 dev /Users/csabaszabo/DEV/react-email/packages/section
+@react-email/section:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/section:dev: 
+@react-email/button:dev: ESM Build start
+@react-email/code-block:dev: CLI Building entry: src/index.ts
+@react-email/code-block:dev: CLI Using tsconfig: tsconfig.json
+@react-email/code-block:dev: CLI tsup v7.2.0
+@react-email/code-block:dev: CLI Running in watch mode
+@react-email/code-block:dev: CLI Target: es6
+@react-email/code-block:dev: ESM Build start
+@react-email/code-block:dev: CJS Build start
+@react-email/render:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/render:dev: 
+@react-email/render:dev: > @react-email/render@0.0.12 dev /Users/csabaszabo/DEV/react-email/packages/render
+@react-email/render:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/render:dev: 
+@react-email/column:dev: CLI Building entry: src/index.ts
+@react-email/column:dev: CLI Using tsconfig: tsconfig.json
+@react-email/column:dev: CLI tsup v7.2.0
+@react-email/column:dev: CLI Running in watch mode
+@react-email/column:dev: CLI Target: es6
+@react-email/column:dev: ESM Build start
+@react-email/column:dev: CJS Build start
+@react-email/img:dev: CJS dist/index.js 2.73 KB
+@react-email/img:dev: CJS ⚡️ Build success in 68ms
+@react-email/button:dev: CJS Build start
+@react-email/img:dev: ESM dist/index.mjs 1.80 KB
+@react-email/img:dev: ESM ⚡️ Build success in 78ms
+@react-email/img:dev: CLI Watching for changes in "."
+@react-email/img:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/hr:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/column:dev: ESM dist/index.mjs 1.59 KB
+@react-email/column:dev: ESM ⚡️ Build success in 54ms
+@react-email/column:dev: CJS dist/index.js 2.52 KB
+@react-email/column:dev: CJS ⚡️ Build success in 54ms
+@react-email/html:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/column:dev: CLI Watching for changes in "."
+@react-email/column:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/html:dev: 
+@react-email/html:dev: > @react-email/html@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/html
+@react-email/html:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/html:dev: 
+web:dev: 
+web:dev: > web@0.0.0 dev /Users/csabaszabo/DEV/react-email/apps/web
+web:dev: > next dev
+web:dev: 
+@react-email/hr:dev: 
+@react-email/hr:dev: > @react-email/hr@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/hr
+@react-email/hr:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/hr:dev: 
+@react-email/button:dev: CJS dist/index.js 6.26 KB
+@react-email/button:dev: CJS ⚡️ Build success in 101ms
+@react-email/button:dev: ESM dist/index.mjs 5.26 KB
+@react-email/button:dev: ESM ⚡️ Build success in 154ms
+@react-email/preview:dev: CLI Building entry: src/index.ts
+@react-email/preview:dev: CLI Using tsconfig: tsconfig.json
+@react-email/preview:dev: CLI tsup v7.2.0
+@react-email/preview:dev: CLI Running in watch mode
+@react-email/components:dev: ESM dist/index.mjs 753.00 B
+@react-email/components:dev: ESM ⚡️ Build success in 180ms
+@react-email/components:dev: CJS dist/index.js 3.11 KB
+@react-email/components:dev: CJS ⚡️ Build success in 181ms
+@react-email/components:dev: CLI Watching for changes in "."
+@react-email/components:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/preview:dev: CLI Target: es6
+@react-email/preview:dev: ESM Build start
+@react-email/preview:dev: CJS Build start
+@react-email/row:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/button:dev: CLI Watching for changes in "."
+@react-email/button:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/row:dev: 
+@react-email/row:dev: > @react-email/row@0.0.7 dev /Users/csabaszabo/DEV/react-email/packages/row
+@react-email/row:dev: > tsup src/index.ts --format esm,cjs --dts --external react --watch
+@react-email/row:dev: 
+@react-email/preview:dev: ESM dist/index.mjs 2.21 KB
+@react-email/preview:dev: ESM ⚡️ Build success in 33ms
+@react-email/preview:dev: CJS dist/index.js 3.21 KB
+@react-email/preview:dev: CJS ⚡️ Build success in 33ms
+@react-email/preview:dev: CLI Watching for changes in "."
+@react-email/preview:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/code-block:dev: ESM dist/index.mjs 734.15 KB
+@react-email/code-block:dev: ESM ⚡️ Build success in 223ms
+@react-email/code-block:dev: CJS dist/index.js 737.08 KB
+@react-email/code-block:dev: CJS ⚡️ Build success in 224ms
+@react-email/code-block:dev: CLI Watching for changes in "."
+@react-email/code-block:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/font:dev: CLI Building entry: src/index.ts
+@react-email/font:dev: CLI Using tsconfig: tsconfig.json
+@react-email/font:dev: CLI tsup v7.2.0
+@react-email/font:dev: CLI Running in watch mode
+@react-email/font:dev: CLI Target: es6
+@react-email/font:dev: ESM Build start
+@react-email/font:dev: CJS Build start
+@react-email/column:dev: DTS Build start
+@react-email/head:dev: DTS Build start
+@react-email/text:dev: CLI Building entry: src/index.ts
+@react-email/text:dev: CLI Using tsconfig: tsconfig.json
+@react-email/text:dev: CLI tsup v7.2.0
+@react-email/text:dev: CLI Running in watch mode
+@react-email/text:dev: CLI Target: es6
+@react-email/text:dev: ESM Build start
+@react-email/text:dev: CJS Build start
+@react-email/font:dev: ESM dist/index.mjs 799.00 B
+@react-email/font:dev: ESM ⚡️ Build success in 25ms
+@react-email/link:dev: CLI Building entry: src/index.ts
+@react-email/link:dev: CLI Using tsconfig: tsconfig.json
+@react-email/link:dev: CLI tsup v7.2.0
+@react-email/link:dev: CLI Running in watch mode
+@react-email/font:dev: CJS dist/index.js 1.80 KB
+@react-email/font:dev: CJS ⚡️ Build success in 37ms
+@react-email/link:dev: CLI Target: es6
+@react-email/link:dev: ESM Build start
+@react-email/link:dev: CJS Build start
+@react-email/font:dev: CLI Watching for changes in "."
+@react-email/font:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/text:dev: CJS dist/index.js 2.56 KB
+@react-email/text:dev: CJS ⚡️ Build success in 70ms
+@react-email/text:dev: ESM dist/index.mjs 1.63 KB
+@react-email/text:dev: ESM ⚡️ Build success in 70ms
+@react-email/text:dev: CLI Watching for changes in "."
+@react-email/text:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/link:dev: CJS dist/index.js 2.63 KB
+@react-email/link:dev: CJS ⚡️ Build success in 44ms
+@react-email/link:dev: ESM dist/index.mjs 1.70 KB
+@react-email/link:dev: ESM ⚡️ Build success in 44ms
+@react-email/heading:dev: CLI Building entry: src/index.ts
+@react-email/heading:dev: CLI Using tsconfig: tsconfig.json
+@react-email/link:dev: CLI Watching for changes in "."
+@react-email/link:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/heading:dev: CLI tsup v7.2.0
+@react-email/heading:dev: CLI Running in watch mode
+@react-email/heading:dev: CLI Target: es6
+@react-email/heading:dev: ESM Build start
+@react-email/heading:dev: CJS Build start
+@react-email/container:dev: CLI Building entry: src/index.ts
+@react-email/container:dev: CLI Using tsconfig: tsconfig.json
+@react-email/container:dev: CLI tsup v7.2.0
+@react-email/container:dev: CLI Running in watch mode
+@react-email/container:dev: CLI Target: es6
+@react-email/container:dev: ESM Build start
+@react-email/container:dev: CJS Build start
+@react-email/heading:dev: CJS dist/index.js 3.74 KB
+@react-email/heading:dev: CJS ⚡️ Build success in 25ms
+@react-email/heading:dev: ESM dist/index.mjs 2.75 KB
+@react-email/heading:dev: ESM ⚡️ Build success in 26ms
+@react-email/heading:dev: CLI Watching for changes in "."
+@react-email/heading:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/body:dev: CLI Building entry: src/index.ts
+@react-email/body:dev: CLI Using tsconfig: tsconfig.json
+@react-email/body:dev: CLI tsup v7.2.0
+@react-email/body:dev: CLI Running in watch mode
+@react-email/body:dev: CLI Target: es6
+@react-email/body:dev: ESM Build start
+@react-email/body:dev: CJS Build start
+@react-email/container:dev: CJS dist/index.js 2.94 KB
+@react-email/container:dev: CJS ⚡️ Build success in 24ms
+@react-email/container:dev: ESM dist/index.mjs 1.92 KB
+@react-email/container:dev: ESM ⚡️ Build success in 24ms
+@react-email/container:dev: CLI Watching for changes in "."
+@react-email/container:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/markdown:dev: CLI Building entry: src/index.ts
+@react-email/markdown:dev: CLI Using tsconfig: tsconfig.json
+@react-email/markdown:dev: CLI tsup v7.2.0
+@react-email/markdown:dev: CLI Running in watch mode
+@react-email/body:dev: ESM dist/index.mjs 1.58 KB
+@react-email/body:dev: ESM ⚡️ Build success in 21ms
+@react-email/body:dev: CJS dist/index.js 2.51 KB
+@react-email/body:dev: CJS ⚡️ Build success in 22ms
+@react-email/markdown:dev: CLI Target: es6
+@react-email/markdown:dev: ESM Build start
+@react-email/markdown:dev: CJS Build start
+@react-email/body:dev: CLI Watching for changes in "."
+@react-email/body:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/markdown:dev: ESM dist/index.mjs 1.95 KB
+@react-email/markdown:dev: ESM ⚡️ Build success in 52ms
+@react-email/markdown:dev: CJS dist/index.js 2.92 KB
+@react-email/markdown:dev: CJS ⚡️ Build success in 57ms
+react-email:dev: CLI Building entry: ./src/cli/index.ts
+react-email:dev: CLI Using tsconfig: tsconfig.json
+react-email:dev: CLI tsup v7.2.0
+react-email:dev: CLI Using tsup config: /Users/csabaszabo/DEV/react-email/packages/react-email/tsup.config.ts
+react-email:dev: CLI Running in watch mode
+react-email:dev: CLI Target: es5
+react-email:dev: ESM Build start
+react-email:dev: CJS Build start
+@react-email/markdown:dev: CLI Watching for changes in "."
+@react-email/markdown:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/section:dev: CLI Building entry: src/index.ts
+@react-email/section:dev: CLI Using tsconfig: tsconfig.json
+@react-email/section:dev: CLI tsup v7.2.0
+@react-email/section:dev: CLI Running in watch mode
+@react-email/section:dev: CLI Target: es6
+@react-email/section:dev: ESM Build start
+@react-email/section:dev: CJS Build start
+react-email:dev: ESM cli/index.mjs 26.25 KB
+react-email:dev: ESM ⚡️ Build success in 74ms
+@react-email/hr:dev: CLI Building entry: src/index.ts
+@react-email/section:dev: ESM dist/index.mjs 1.85 KB
+@react-email/section:dev: ESM ⚡️ Build success in 17ms
+@react-email/hr:dev: CLI Using tsconfig: tsconfig.json
+@react-email/hr:dev: CLI tsup v7.2.0
+@react-email/hr:dev: CLI Running in watch mode
+@react-email/section:dev: CJS dist/index.js 2.86 KB
+@react-email/section:dev: CJS ⚡️ Build success in 17ms
+@react-email/hr:dev: CLI Target: es6
+@react-email/hr:dev: ESM Build start
+@react-email/hr:dev: CJS Build start
+react-email:dev: CJS cli/index.js 59.21 KB
+react-email:dev: CJS ⚡️ Build success in 82ms
+@react-email/section:dev: CLI Watching for changes in "."
+@react-email/section:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/html:dev: CLI Building entry: src/index.ts
+@react-email/html:dev: CLI Using tsconfig: tsconfig.json
+@react-email/html:dev: CLI tsup v7.2.0
+@react-email/html:dev: CLI Running in watch mode
+react-email:dev: CLI Watching for changes in "."
+react-email:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "cli"
+@react-email/render:dev: CLI Building entry: src/index.ts
+@react-email/render:dev: CLI Using tsconfig: tsconfig.json
+@react-email/render:dev: CLI tsup v7.2.0
+@react-email/render:dev: CLI Running in watch mode
+@react-email/row:dev: CLI Building entry: src/index.ts
+@react-email/row:dev: CLI Using tsconfig: tsconfig.json
+@react-email/row:dev: CLI tsup v7.2.0
+@react-email/row:dev: CLI Running in watch mode
+@react-email/html:dev: CLI Target: es6
+@react-email/html:dev: ESM Build start
+@react-email/hr:dev: CJS dist/index.js 2.56 KB
+@react-email/hr:dev: CJS ⚡️ Build success in 22ms
+@react-email/hr:dev: ESM dist/index.mjs 1.63 KB
+@react-email/hr:dev: ESM ⚡️ Build success in 22ms
+@react-email/html:dev: CJS Build start
+@react-email/render:dev: CLI Target: es6
+@react-email/render:dev: ESM Build start
+@react-email/render:dev: CJS Build start
+@react-email/render:dev: ESM dist/index.mjs 5.02 KB
+@react-email/render:dev: ESM ⚡️ Build success in 28ms
+@react-email/render:dev: CJS dist/index.js 6.68 KB
+@react-email/render:dev: CJS ⚡️ Build success in 32ms
+@react-email/html:dev: CJS dist/index.js 2.52 KB
+@react-email/html:dev: CJS ⚡️ Build success in 45ms
+@react-email/html:dev: ESM dist/index.mjs 1.58 KB
+@react-email/html:dev: ESM ⚡️ Build success in 46ms
+@react-email/render:dev: CLI Watching for changes in "."
+@react-email/render:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/hr:dev: CLI Watching for changes in "."
+@react-email/hr:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/html:dev: CLI Watching for changes in "."
+@react-email/html:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/row:dev: CLI Target: es6
+@react-email/row:dev: ESM Build start
+@react-email/row:dev: CJS Build start
+@react-email/row:dev: CJS dist/index.js 2.82 KB
+@react-email/row:dev: CJS ⚡️ Build success in 38ms
+@react-email/row:dev: ESM dist/index.mjs 1.85 KB
+@react-email/row:dev: ESM ⚡️ Build success in 38ms
+@react-email/row:dev: CLI Watching for changes in "."
+@react-email/row:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/button:dev: DTS Build start
+@react-email/img:dev: DTS Build start
+@react-email/code-block:dev: DTS Build start
+@react-email/components:dev: DTS Build start
+@react-email/preview:dev: DTS Build start
+@react-email/code-inline:dev:  WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.14.2","pnpm":"8.15.4"})
+@react-email/code-inline:dev: 
+@react-email/code-inline:dev: > @react-email/code-inline@0.0.1 build /Users/csabaszabo/DEV/react-email/packages/code-inline
+@react-email/code-inline:dev: > tsup src/index.ts --format esm,cjs --dts --external react "--watch"
+@react-email/code-inline:dev: 
+@react-email/container:dev: DTS Build start
+@react-email/link:dev: DTS Build start
+@react-email/text:dev: DTS Build start
+@react-email/font:dev: DTS Build start
+@react-email/heading:dev: DTS Build start
+@react-email/body:dev: DTS Build start
+@react-email/section:dev: DTS Build start
+@react-email/markdown:dev: DTS Build start
+react-email:dev: DTS Build start
+@react-email/hr:dev: DTS Build start
+@react-email/row:dev: DTS Build start
+@react-email/render:dev: DTS Build start
+@react-email/code-inline:dev: CLI Building entry: src/index.ts
+@react-email/code-inline:dev: CLI Using tsconfig: tsconfig.json
+@react-email/code-inline:dev: CLI tsup v7.2.0
+@react-email/code-inline:dev: CLI Running in watch mode
+@react-email/code-inline:dev: CLI Target: es6
+@react-email/code-inline:dev: ESM Build start
+@react-email/code-inline:dev: CJS Build start
+@react-email/code-inline:dev: CJS dist/index.js 3.20 KB
+@react-email/code-inline:dev: CJS ⚡️ Build success in 56ms
+@react-email/code-inline:dev: ESM dist/index.mjs 2.18 KB
+@react-email/code-inline:dev: ESM ⚡️ Build success in 56ms
+@react-email/html:dev: DTS Build start
+@react-email/column:dev: DTS ⚡️ Build success in 1304ms
+@react-email/code-inline:dev: CLI Watching for changes in "."
+@react-email/code-inline:dev: CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+@react-email/code-inline:dev: DTS Build start
+@react-email/tailwind:dev: vite v4.5.2 building for production...
+@react-email/tailwind:dev: 
+@react-email/tailwind:dev: watching for file changes...
+@react-email/tailwind:dev: 
+@react-email/tailwind:dev: build started...
+@react-email/preview:dev: DTS ⚡️ Build success in 2579ms
+@react-email/render:dev: DTS ⚡️ Build success in 2608ms
+@react-email/container:dev: DTS ⚡️ Build success in 3212ms
+web:dev:   ▲ Next.js 13.5.6
+web:dev:   - Local:        http://localhost:3000
+web:dev: 
+web:dev:  ✓ Ready in 3.1s
+@react-email/heading:dev: DTS ⚡️ Build success in 3943ms
+@react-email/font:dev: DTS ⚡️ Build success in 4091ms
+@react-email/head:dev: DTS ⚡️ Build success in 5838ms
+@react-email/img:dev: DTS ⚡️ Build success in 5612ms
+@react-email/code-block:dev: DTS ⚡️ Build success in 5705ms
+@react-email/body:dev: DTS ⚡️ Build success in 5365ms
+@react-email/text:dev: DTS ⚡️ Build success in 5495ms
+@react-email/row:dev: DTS ⚡️ Build success in 5309ms
+@react-email/section:dev: DTS ⚡️ Build success in 5506ms
+@react-email/components:dev: DTS ⚡️ Build success in 6027ms
+@react-email/code-inline:dev: DTS ⚡️ Build success in 4279ms
+@react-email/markdown:dev: DTS ⚡️ Build success in 5732ms
+@react-email/hr:dev: DTS ⚡️ Build success in 5804ms
+@react-email/html:dev: DTS ⚡️ Build success in 5697ms
+@react-email/link:dev: DTS ⚡️ Build success in 6097ms
+@react-email/button:dev: DTS ⚡️ Build success in 6427ms
+react-email:dev: DTS ⚡️ Build success in 5945ms
+@react-email/tailwind:dev: transforming...
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/memfs@4.6.0_quill-delta@5.1.0_rxjs@7.8.1_tslib@2.6.2/node_modules/memfs/lib/volume.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/fast-glob@3.3.2/node_modules/fast-glob/out/providers/stream.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "module" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/jiti@1.20.0/node_modules/jiti/dist/jiti.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "perf_hooks" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/jiti@1.20.0/node_modules/jiti/dist/jiti.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "vm" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/jiti@1.20.0/node_modules/jiti/dist/jiti.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "v8" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/jiti@1.20.0/node_modules/jiti/dist/jiti.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "module" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/jiti@1.20.0/node_modules/jiti/dist/babel.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "v8" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/jiti@1.20.0/node_modules/jiti/dist/babel.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/fast-glob@3.3.2/node_modules/fast-glob/out/readers/stream.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/cipher-base@1.0.4/node_modules/cipher-base/index.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/merge2@1.4.1/node_modules/merge2/index.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: [plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/csabaszabo/DEV/react-email/node_modules/.pnpm/@nodelib+fs.walk@1.2.8/node_modules/@nodelib/fs.walk/out/providers/stream.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+@react-email/tailwind:dev: ✓ 1252 modules transformed.
+@react-email/tailwind:dev: rendering chunks...
+@react-email/tailwind:dev: 
+@react-email/tailwind:dev: [vite:dts] Start generate declaration files...
+@react-email/tailwind:dev: computing gzip size...
+@react-email/tailwind:dev: [vite:dts] Declaration files built in 4564ms.
+@react-email/tailwind:dev: 
+@react-email/tailwind:dev: dist/index.js  2,684.13 kB │ gzip: 726.75 kB
+@react-email/tailwind:dev: dist/index.mjs  3,739.66 kB │ gzip: 825.69 kB
+@react-email/tailwind:dev: built in 11333ms.
+web:dev: [?25h
