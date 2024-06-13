@@ -2,11 +2,14 @@ import * as React from "react";
 
 type RootProps = React.ComponentPropsWithoutRef<"a">;
 
-export type LinkProps = RootProps;
+export type LinkProps = RootProps & {
+  noTrack?: boolean;
+};
 
 export const Link: React.FC<Readonly<LinkProps>> = ({
   target = "_blank",
   style,
+  noTrack = false,
   ...props
 }) => (
   <a
@@ -17,6 +20,8 @@ export const Link: React.FC<Readonly<LinkProps>> = ({
       ...style,
     }}
     target={target}
+    // eslint-disable-next-line react/jsx-sort-props, react/no-unknown-property
+    ses:no-track={noTrack ? "true" : undefined}
   >
     {props.children}
   </a>
